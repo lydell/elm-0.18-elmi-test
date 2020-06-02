@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "scripts": {
+    "test": "elm make Main.elm && elm-interface-to-json"
+  },
+  "dependencies": {
+    "elm": "0.18.0-exp5",
+    "elm-interface-to-json": "0.0.3"
+  }
+}
